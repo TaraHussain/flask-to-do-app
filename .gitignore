@@ -1,4 +1,4 @@
-Procfile
-pipfile
-pipfile.lock
+./Procfile
+./pipfile
+./pipfile.lock
 .DS_store
