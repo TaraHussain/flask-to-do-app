@@ -1,4 +1,83 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
+
+body,
+html {
   margin: 0;
-  font-family: sans-serif;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  font-family: "Staatliches", cursive;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 70px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+
+.content {
+  margin: 0 auto;
+  width: 75%;
+}
+
+table,
+td,
+th {
+  border: 2px solid rgb(197, 197, 197);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 30px;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+#add_task {
+  width: 60%;
 }
