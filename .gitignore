@@ -1,0 +1,4 @@
+Procfile
+pipfile
+pipfile.lock
+.DS_store
