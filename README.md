@@ -1,5 +1,7 @@
 # Tara's To-Do List
 
+See it in action: https://taras-to-do-list.herokuapp.com/
+
 Simple Flask App to keep track of my day to day tasks!
 
 ![](./app.gif)
